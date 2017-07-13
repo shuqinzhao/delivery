@@ -23,7 +23,7 @@ export default {
     width: 100%;
     height: 50px;
     color: #fff;
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 1);
     z-index: 10;
   }
 </style>

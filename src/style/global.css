@@ -1,5 +1,6 @@
 html {
   box-sizing: border-box;
+  font-size:10px
 }
 
 *,
@@ -14,7 +15,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background-color: #fff;
   /* font-size: 12px; */
-  font-family: Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
+  font-family: Helvetica, Microsoft YaHei,tahoma,arial,Hiragino Sans GB,\\5b8b\4f53,sans-serif;
   color: #666;
 }
 
@@ -27,4 +28,82 @@ ol {
 img {
   vertical-align: middle;
   border: 0;
+}
+
+@media screen and (min-width:321px) and (max-width:375px){
+  html{
+    font-size:11px
+  }
+  .info_list {
+    width: 310px;
+  }
+  .search {
+    width: 310px;
+  }
+}
+@media screen and (min-width:376px) and (max-width:414px){
+  html{
+    font-size:12px
+  }
+  .info_list {
+    width: 310px;
+  }
+  .search {
+    width: 310px;
+  }
+}
+@media screen and (min-width:415px) and (max-width:639px){
+  html{
+    font-size:15px
+  }
+  .info_list {
+    width: 310px;
+  }
+  .search {
+    width: 310px;
+  }
+}
+@media screen and (min-width:640px) and (max-width:719px){
+  html{
+    font-size:16px
+  }
+  .info_list {
+    width: 310px;
+  }
+  .search {
+    width: 310px;
+  }
+}
+@media screen and (min-width:720px) and (max-width:749px){
+  html{
+    font-size:16px
+  }
+  .info_list {
+    width: 500px;
+  }
+  .search {
+    width: 500px;
+  }
+}
+@media screen and (min-width:750px) and (max-width:799px){
+  html{
+    font-size:16px;
+  }
+  .info_list {
+    width: 500px;
+  }
+  .search {
+    width: 500px;
+  }
+}
+@media screen and (min-width:800px){
+  html{
+    font-size:16px;
+  }
+  .info_list {
+    width: 500px;
+  }
+  .search {
+    width: 500px;
+  }
 }

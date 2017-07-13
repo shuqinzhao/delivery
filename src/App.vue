@@ -24,13 +24,20 @@ export default {
 <style scoped>
   @import 'style/core.css';
 
-  .main {
+  #app {
+    width: 100%;
     position: fixed;
-    top: 70px;
-    bottom: 50px;
-    left: 40px;
-    right: 40px;
-    padding: 10px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: auto;
+  }
+  .main {
     background: #f8f8f8;
+    padding: 70px 40px 50px 40px;
+    /* overflow: auto; */
+    position: relative;
+    z-index: 1;
   }
 </style>

@@ -26,6 +26,7 @@ export default {
   text-align: center;
   margin-top: 30px;
   font-weight: bold;
+  margin: 0 auto;
 }
 .search_text {
   padding: 10px;
@@ -34,12 +35,12 @@ export default {
 .search_input {
   height: 35px;
   padding: 5px 10px;
-  width: 500px;
+  width: 75%;
   display: inline-block;
 }
 .search_btn {
   height: 35px;
-  width: 50px;
+  width: 20%;
   text-align: center;
   background: rgba(0, 0, 0, 0.8);
   color: #fff;
