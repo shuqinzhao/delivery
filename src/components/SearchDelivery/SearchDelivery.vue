@@ -3,9 +3,8 @@
     <div class="search">
       <p class="search_text">快递智能查询 </p>
       <input type="text" class="search_input" v-model="tracking_number" placeholder="请输入快递单号" />
-      <button class="search_btn">查询</button>
+      <button class="search_btn" @click="search">查询</button>
     </div>
-    {{ tracking_number }}
   </div>  
 </template>
 
@@ -16,6 +15,14 @@ export default {
     return {
       msg: 'searchDelivery',
       tracking_number: ''
+    }
+  },
+  methods: {
+    search () {
+      this.$http.get()
+      .then((res) => {
+        console.log('a')
+      })
     }
   }
 }
