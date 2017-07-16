@@ -5,17 +5,14 @@
     <div class="main">
       <router-view></router-view>
     </div>
-    <FooterDelivery></FooterDelivery>
   </div>
 </template>
 
 <script>
-import FooterDelivery from './components/FooterDelivery/FooterDelivery.vue'
 import Topbar from './components/Topbar/Topbar.vue'
 export default {
   name: 'app',
   components: {
-    FooterDelivery,
     Topbar
   }
 }

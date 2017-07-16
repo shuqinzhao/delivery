@@ -19,10 +19,7 @@ export default {
   },
   methods: {
     search () {
-      this.$http.get()
-      .then((res) => {
-        console.log('a')
-      })
+      console.log(this.tracking_number);
     }
   }
 }
