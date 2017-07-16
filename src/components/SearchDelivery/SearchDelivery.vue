@@ -19,7 +19,7 @@ export default {
   },
   methods: {
     search () {
-      console.log(this.tracking_number);
+      console.log(this.tracking_number)
     }
   }
 }
